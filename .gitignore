@@ -1,0 +1,40 @@
+# 编译生成的文件
+*.o
+*.ko
+*.mod.c
+*.symvers
+*.order
+
+# 临时文件
+*~
+*.swp
+*.swo
+
+# 编译日志
+*.log
+
+# 内核构建文件
+/Module.symvers
+/Module.markers
+/modules.order
+/*.cmd
+/.tmp_versions/
+
+# 自动生成的文件
+aic8800_linux_drvier/.config
+aic8800_linux_drvier/Makefile
+
+# CTags/Etags
+tags
+TAGS
+
+# cscope files
+cscope.*
+ncscope.*
+
+# IDE/编辑器文件
+.vscode/
+.idea/
+
+# 内核构建临时目录
+*.o.d
