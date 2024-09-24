@@ -38,6 +38,7 @@ To compile and install this driver, ensure the following dependencies are instal
 ```bash
 # Fedora example
 sudo dnf install kernel-devel kernel-headers gcc make git
+```
 
 ## Installation
 
