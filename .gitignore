@@ -38,3 +38,20 @@ ncscope.*
 
 # 内核构建临时目录
 *.o.d
+
+# 忽略所有 .cmd 文件
+*.cmd
+
+# 忽略所有 .mod 文件
+*.mod
+
+# 忽略所有 modules.order 文件
+*.modules.order
+
+# 只忽略特定目录下的 .cmd 和 .mod 文件
+drivers/aic8800/*.cmd
+drivers/aic8800/*.mod
+drivers/aic8800/aic8800_fdrv/*.cmd
+drivers/aic8800/aic8800_fdrv/*.mod
+drivers/aic8800/aic_load_fw/*.cmd
+drivers/aic8800/aic_load_fw/*.mod
